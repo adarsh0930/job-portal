@@ -57,7 +57,7 @@ export default function JobCard({
           flexShrink: 0,
           position: { xs: "absolute", sm: "static" },
           top: { xs: -32, sm: 0 }, 
-          transform: { ys: "translateY(-50%)", sm: "none" },
+          transform: { xs: "translateY(-50%)", sm: "none" },
           bgcolor: "background.paper",
         }}
       />
