@@ -26,7 +26,7 @@ export default function JobCard({
 
   const tealMain = "#008080"; 
   const tealLight = "#F0FAFB"; 
-  const tags = [role, level, ...tools]
+  const tags = [role, level, ...(tools || [])]
 
   return (
     <Card
