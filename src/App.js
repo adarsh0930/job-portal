@@ -1,9 +1,13 @@
+import React from "react";
 import './App.css';
+import Jobs from './components/jobs'
+import Header from './components/header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Let's Create a Job-Portal</h1>
+      <Header />
+      <Jobs />
     </div>
   );
 }
