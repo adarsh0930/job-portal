@@ -9,7 +9,7 @@ html, body, #root, .App {
   background-size: cover;
   background-repeat: no-repeat;
   height: 8rem;
-  position: "relative"
+  position: relative;
 }
 
 @media (min-width: 768px) {
