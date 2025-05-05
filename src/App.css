@@ -1,5 +1,6 @@
-.App {
-  background-color : #F0FAFB;
+html, body, #root, .App {
+  min-height: 100vh;
+  background: #F0FAFB; 
 }
 
 .custom-header {
@@ -8,6 +9,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 8rem;
+  position: relative;
 }
 
 @media (min-width: 768px) {
