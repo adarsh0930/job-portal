@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Job Portal App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive React application for browsing and filtering job listings by skill, level, role, and tools. Built with React and Material UI. Inspired by the Frontend Mentor challenge.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Demo
 
-### `npm start`
+![Desktop Screenshot](./screenshots/joblist-desktop.png)
+![Mobile Screenshot](./screenshots/joblist-mobile.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- Clean, modern, fully responsive design
+- **Dynamic filtering:** Click tags to filter jobs (matches all selected tags simultaneously)
+- Interactive filter bar “floats” above the job list, with animated chips and clear/remove functions
+- Visual highlights for active filters and job tags
+- Mobile and desktop layouts
+- Built with React and Material-UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repo:**
+    ```bash
+    git clone https://github.com/yourusername/job-listings-filter-app.git
+    cd job-listings-filter-app
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the development server:**
+    ```bash
+    npm start
+    ```
+    App will run at [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📸 Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Desktop
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Filter Bar Desktop](./screenshots/filterbar-desktop.png)
+![Jobs List Desktop](./screenshots/joblist-desktop.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Mobile
 
-## Learn More
+![Filter Bar Mobile](./screenshots/filterbar-mobile.png)
+![Jobs List Mobile](./screenshots/joblist-mobile.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+- `src/components/`: React components (`Header`, `FilterBar`, `JobCard`, etc)
+- `src/data.json`: Job listings data
+- `src/App.js`: Main application logic & state
+- `src/App.css`: Custom styles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🔎 Key Learnings
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Advanced state and props management in React
+- Implementing “AND logic” for multi-tag filters
+- Responsive layout & modern UI styling with MUI
+- Handling tricky UI edge cases (avatar backgrounds, overflow, etc)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🚧 Future Improvements
 
-### Advanced Configuration
+- Accessibility enhancements for a more inclusive UI
+- Persist selected filters with LocalStorage
+- Pagination or infinite scroll for large job lists
+- Modal or detailed view for each job listing
+- Animated transitions for filter changes
+- Support for additional filters (company, date, remote, etc)
+- Dark mode and custom themes
+- API integration for live data
+- Automated tests for reliability
+- User accounts or bookmark/saved job functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 💡 Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges) for the original job listings inspiration
+- [Material UI](https://mui.com/) for React components
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📃 License
+
+[MIT](LICENSE)
+
+---
